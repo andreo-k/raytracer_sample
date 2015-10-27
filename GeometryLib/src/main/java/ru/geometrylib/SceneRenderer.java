@@ -36,6 +36,11 @@ public final class SceneRenderer
 	    
 	}
 	
+	public void hello2()
+	{
+	    
+	}
+	
 	public SceneRenderer(Scene scene)
 	{
 		this.scene = scene;
