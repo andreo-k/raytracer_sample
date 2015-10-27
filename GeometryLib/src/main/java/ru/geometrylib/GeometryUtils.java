@@ -7,6 +7,7 @@ public final class GeometryUtils
 {
 	public static final double EPS = 0.0000001d;
 
+	
 	// номер октанта для точки point в системе координат с центром center
 	public static int OctantNumberForPoint(Point center, Point point)
 	{
