@@ -46,6 +46,11 @@ public final class SceneRenderer
 		}
 	}
 
+	public void testMtd2() 
+	{
+	    
+	}
+	
 	public int getImgWidth()
 	{
 		return imgWidth;
