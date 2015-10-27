@@ -7,7 +7,7 @@ public final class GeometryUtils
 {
 	public static final double EPS = 0.0000001d;
 
-	// номер октанта для точки point в системе координат с центром center
+	// РЅРѕРјРµСЂ РѕРєС‚Р°РЅС‚Р° РґР»СЏ С‚РѕС‡РєРё point РІ СЃРёСЃС‚РµРјРµ РєРѕРѕСЂРґРёРЅР°С‚ СЃ С†РµРЅС‚СЂРѕРј center
 	public static int OctantNumberForPoint(Point center, Point point)
 	{
 		int result = 0;
@@ -27,7 +27,7 @@ public final class GeometryUtils
 		return result;
 	}
 
-	// октанты, которые пересекает луч
+	// РѕРєС‚Р°РЅС‚С‹, РєРѕС‚РѕСЂС‹Рµ РїРµСЂРµСЃРµРєР°РµС‚ Р»СѓС‡
 	public static boolean[] OctantNumbersForRay(Point center, Ray ray)
 	{
 		boolean result[] = new boolean[] { false, false, false, false, false,
@@ -36,7 +36,7 @@ public final class GeometryUtils
 		int number = OctantNumberForPoint(center, ray.getOrigin());
 		result[number] = true;
 
-		// используем параметрические уравнения луча
+		// РёСЃРїРѕР»СЊР·СѓРµРј РїР°СЂР°РјРµС‚СЂРёС‡РµСЃРєРёРµ СѓСЂР°РІРЅРµРЅРёСЏ Р»СѓС‡Р°
 
 		double t = 1.0d;
 
@@ -199,7 +199,7 @@ public final class GeometryUtils
 		}
 	};
 
-	// пересечение луча и треугольника
+	// РїРµСЂРµСЃРµС‡РµРЅРёРµ Р»СѓС‡Р° Рё С‚СЂРµСѓРіРѕР»СЊРЅРёРєР°
 	public static MollerTrumboreResult MollerTrumbore(Point a, Point b,
 			Point c, Ray ray)
 	{		
