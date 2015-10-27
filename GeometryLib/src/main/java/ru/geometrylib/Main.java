@@ -11,6 +11,8 @@ import ru.geometrylib.datamodel.SceneLoader;
 
 public class Main
 {
+	//this comment was added via web editor tool
+	
 	public static void main(String[] args)
 	{
 		try
