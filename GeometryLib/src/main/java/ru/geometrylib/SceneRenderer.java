@@ -26,6 +26,11 @@ public final class SceneRenderer
 
 	private HashMap<Face, Color> face2color = new HashMap<Face, Color>();
 
+	public void testMtd() 
+	{
+	    
+	}
+	
 	public SceneRenderer(Scene scene)
 	{
 		this.scene = scene;
